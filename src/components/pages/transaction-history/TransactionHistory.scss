@@ -1,0 +1,12 @@
+@import "../../../styles/variables.scss";
+.HistoryTitle {
+	margin-right: 10px;
+}
+.HistorySort {
+	i {
+		cursor: pointer;
+		&:hover {
+			color: red;
+		}
+	}
+}

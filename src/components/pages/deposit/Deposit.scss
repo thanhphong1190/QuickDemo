@@ -1,0 +1,24 @@
+@import "../../../styles/variables.scss";
+.ContentBody {
+	.BodyHeader {
+		width: 100%;
+		background-color: $bg-body-header-color;
+		padding: $body-header-padding;
+	}
+	.BodyContentContainer {
+		.BodyContent {
+			padding-top: 20px;
+			form {
+				width: 60%;
+			}
+
+			.HistorySearchBar {
+				width: 100%;
+				margin-bottom: 10px;
+				.input-group {
+					width: auto;
+				}
+			}
+		}
+	}
+}

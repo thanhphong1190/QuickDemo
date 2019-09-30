@@ -1,0 +1,11 @@
+@import "../../../styles/variables";
+
+.MainApp {
+    position: relative;
+    height: 100vh;
+    overflow: auto;
+    .MainAppWrapper {
+        min-height: 100vh;
+        position: relative;
+    }
+}

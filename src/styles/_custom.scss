@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    .CenterOnMobile {
+        text-align: center;
+    }
+}
+
+.InputItem {
+    .FormInputCustorm {
+        .EmptyOption {
+            color: #cccccc;
+        }
+    }
+    .FormInputCustorm::placeholder {
+        color: #cccccc;
+    }
+
+}

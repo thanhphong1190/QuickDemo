@@ -1,0 +1,13 @@
+@import "../../../styles/variables.scss";
+
+.CreateAccountPopup {
+    .CreateAccountForm {
+        @media (max-width: 768px) {
+            width: 100%;
+        }
+
+        form {
+            width: 80%;
+        }
+    }
+}

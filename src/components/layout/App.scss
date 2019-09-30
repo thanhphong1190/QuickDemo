@@ -1,0 +1,21 @@
+@import "../../styles/variables";
+
+.App {
+	.NotFoundMessage {
+		display: flex;
+		flex: 1;
+		justify-content: center;
+		align-items: center;
+		font-size: 31px;
+	}
+}
+
+.ModalHeader {
+	.Title {
+		text-transform: uppercase;
+		font-weight: 900;
+	}
+	.Close {
+		cursor: pointer;
+	}
+}

@@ -1,0 +1,21 @@
+@import "../../../../styles/variables.scss";
+.MainMenu {
+    background-color: $bg-sub-color;
+    .NavBarContainer {
+        .MenuItem {
+            padding: 15px 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: $bg-primary-color;
+            span {
+                margin-left: 10px;
+            }
+            &:hover {
+                background-color: $menu-active-color;
+            }
+        }
+        .actived {
+            background-color: $menu-active-color;
+        }
+    }
+}

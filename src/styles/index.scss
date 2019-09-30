@@ -1,0 +1,63 @@
+@import "./variables";
+@import "./classes";
+@import "./mixins";
+@import './animate.scss';
+@import './custom.scss';
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $font-family-body !important;
+    font-size: $font-size-base !important;
+    color: #000;
+    a {
+        color: #000;
+        text-decoration: none;
+
+		&:hover {
+            text-decoration: none;
+            cursor: pointer;
+		}
+	}
+}
+
+div::-webkit-scrollbar {
+    width: 3px;
+}
+
+div::-webkit-scrollbar-thumb {
+    background-color: $bg-sub-color;
+    border-radius: 0px;
+}
+
+div::-webkit-scrollbar-track {
+    background: none
+}
+
+textarea::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: $bg-primary-color;
+    border-radius: 0px;
+}
+
+textarea::-webkit-scrollbar-track {
+    background: none
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: $bg-primary-color;
+    border-radius: 0px;
+}
+
+body::-webkit-scrollbar-track {
+    background: none;
+}

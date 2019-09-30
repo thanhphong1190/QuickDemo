@@ -1,0 +1,3 @@
+- common    : contain components used for reused purpose.
+- layout    : contain components defined main structure of project.
+- pages     : contain child components used in layout/main/body.
